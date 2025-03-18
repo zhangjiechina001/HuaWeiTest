@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6.StringSplit2", "6.StringS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.BossIncome", "7.BossIncome\7.BossIncome.csproj", "{C9702400-94D5-437E-A53A-17EDBFA5F0F2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8.MinDistance", "8.MinDistance\8.MinDistance.csproj", "{E8EF4030-1A7D-4899-8033-696ADCBC6A65}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{C9702400-94D5-437E-A53A-17EDBFA5F0F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9702400-94D5-437E-A53A-17EDBFA5F0F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C9702400-94D5-437E-A53A-17EDBFA5F0F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8EF4030-1A7D-4899-8033-696ADCBC6A65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8EF4030-1A7D-4899-8033-696ADCBC6A65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8EF4030-1A7D-4899-8033-696ADCBC6A65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8EF4030-1A7D-4899-8033-696ADCBC6A65}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
