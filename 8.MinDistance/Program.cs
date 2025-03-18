@@ -10,8 +10,8 @@ namespace _8.MinDistance
     {
         static void Main(string[] args)
         {
-            String A = "ABCABC";
-            String B = "CBABAC";
+            String A = "ABCABBACCCAAA";
+            String B = "CBABACAAACCC";
             Console.WriteLine("最短路径代价: " + ShortestPath(A, B));
         }
 
@@ -54,6 +54,14 @@ namespace _8.MinDistance
                         // 如果字符不匹配，代价为 2（根据实际需求可以调整）
                         int min1 = Math.Min(dp[i - 1, j], dp[i, j - 1]) + 1;
                         int min2 =  dp[i - 1, j - 1] + 2;
+                        if(min1 == min2)
+                        {
+                            Console.WriteLine($"min1：{min1} min2:{min2}");
+                        }
+                        else if (min1 != min2)
+                        {
+                            Console.WriteLine($"------ min1：{min1} min2:{min2}");
+                        }
                         dp[i, j] = Math.Min(min1,min2);
                     }
                 }
