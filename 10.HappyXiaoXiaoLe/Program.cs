@@ -87,6 +87,7 @@ namespace _10.HappyXiaoXiaoLe
             return ret;
         }
 
+        //不理解为什么这么写，总是感觉不大对劲
         static void Main(string[] args)
         {
             int[,] matrix = GetDataSrc();
